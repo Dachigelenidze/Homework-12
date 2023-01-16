@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    background-color: rgb(97, 92, 99);
+}
+.error-text{
+    color: #ff0000;
+    font-size: 12px;
+}
+
+.inputsize{
+    width: 200px;
+    height: 25px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(195, 195, 195);
+}
+
+.form {
+    background-color: rgb(210, 185, 151);
+    width: 500px;
+    margin: 100px auto;
+} 
+.validation{
+    margin: 0 auto;
+    padding: 8px;
+    width: 50%;
+    font-weight: 900;
+    font-size: 12px;
+    
+}
+
+button{
+    font-size: 30px;
+}
+.fa-eye , .fa-eye-slash {
+    font-size: 14px;
+    cursor: pointer;
+}
+
+a{
+    font-size: 30px;
+    color: rgb(137, 137, 255);
+}

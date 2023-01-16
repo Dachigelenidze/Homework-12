@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    background-color: rgb(180, 177, 174);
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    background-color: #e7dede;
+    width: 500px;
+    margin:150px auto;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 6px;
+  margin-bottom: 16px;
+}
+
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  font-weight: 900;
+cursor: pointer;
+}
+
+label{
+    font-size: 18px;
+    font-weight: 900;
+}
+.errortext{
+    margin: 5px;
+}
+
+
+
+
